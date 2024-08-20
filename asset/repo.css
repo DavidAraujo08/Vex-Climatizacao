@@ -1,5 +1,7 @@
-@media  (max-width: 760px){
-
+@media  (max-width: 360px){
+    body{
+        max-width: 400px;
+    }
     .header ifran{
         font-size: 3em;
     }
@@ -10,7 +12,7 @@
          font-size: 1em;   
         }
         .inst{
-            width: 25em;
+            width: 25vh;
             height: 30em;
         }
         .top-main{
