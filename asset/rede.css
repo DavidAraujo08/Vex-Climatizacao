@@ -1,0 +1,36 @@
+.redes-sociais i{
+    display: flexbox;
+    align-items: center;
+    margin: .5em;  
+    
+}
+.whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 20px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 5px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
+}
+.whatsapp-link:hover{
+    background-color: #18a54c;
+    outline: 3px solid #21be5b;
+}
+.fab{
+    color: rgb(0, 174, 255);
+    font-size: 30px;
+}
+.fab:hover {
+    color: rgb(255, 255, 255);
+    outline: 35px;
+}

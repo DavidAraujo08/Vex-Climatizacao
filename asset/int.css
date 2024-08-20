@@ -1,0 +1,35 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.carousel-inne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1;
+}
+.carousel-item{
+    width: 20vh;
+    margin-top: 2px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .carousel-item img{
+    width: 100vh;
+    min-height: 30vh;
+}
+.footer-carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.container-fluid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

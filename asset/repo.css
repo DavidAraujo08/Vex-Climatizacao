@@ -1,0 +1,28 @@
+@media  (max-width: 760px){
+
+    .header ifran{
+        font-size: 3em;
+    }
+    .header{
+        background-size: 60em;
+       }
+        .reference p{
+         font-size: 1em;   
+        }
+        .inst{
+            width: 25em;
+            height: 30em;
+        }
+        .top-main{
+        font-size: .8em;
+        }
+        .banner-body img{
+           width: 10em;
+           padding: 10px;
+        }
+         iframe{
+             border-radius: 15px;
+             width: 55vh;
+             min-height: 60vh;
+         }
+    }

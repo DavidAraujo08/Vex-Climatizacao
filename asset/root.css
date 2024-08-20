@@ -1,0 +1,11 @@
+:root{
+    --primary-color:rgba(0, 0, 0, 0.055);
+}
+.d-block{
+    width: 25em;
+    height: 70vh;
+    margin: auto;
+}
+::-webkit-scrollbar{
+    width: 5px; 
+}
