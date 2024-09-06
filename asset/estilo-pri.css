@@ -7,7 +7,7 @@ body{
  h1{
     margin-top: 2em;
     margin-bottom: 0;
-    font-size: 45em;
+    font-size: 42em;
     text-shadow: 4px 1px 1px rgb(18, 145, 196);
     color: rgba(0, 0, 0, 0.801);
     font-family: "Radio Canada Big", sans-serif;
@@ -27,10 +27,10 @@ body{
     background-image: url('../img/SVG1.svg');
     background-repeat: no-repeat;
     background-position:center; 
-    background-size: 65em;
+    background-size: 85em;
     background-attachment:fixed;  
 }
-.reference> p{
+.reference > p{
     font-size: 1.6em;
     display: flex;
     align-items: center;
@@ -132,7 +132,7 @@ body{
     background-color: var(--primary-color);
 }
 .inst{
-    width: 30em;
+    width: 35em;
     height: 30em;
     display: flex;
     align-items: center;
@@ -171,10 +171,10 @@ body{
     gap: 1em;
 
 }
+
 .tipoServiço ul li{
     width: 80%;
     margin: auto;
-    display: flex;
     align-items: start;
     justify-content: start;
     padding-bottom: 1em;
@@ -313,7 +313,7 @@ summary{
     align-items: center;
 }
 .modal-body {
-    min-width: 70vh;
+    min-width: 60vh;
     height: 50%;
 }
 iframe{
