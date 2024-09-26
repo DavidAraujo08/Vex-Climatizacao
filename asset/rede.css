@@ -8,8 +8,8 @@
     position: fixed;
     width: 60px;
     height: 60px;
-    bottom: 40px;
-    right: 20px;
+    bottom: 20px;
+    right: 15px;
     background-color: #25d366;
     color: #fff;
     border-radius: 50px;
@@ -25,6 +25,7 @@
 .whatsapp-link:hover{
     background-color: #18a54c;
     outline: 3px solid #21be5b;
+    box-shadow: 5px 5px 10px #888888a1;
 }
 .fab{
     color: rgb(0, 174, 255);

@@ -85,6 +85,7 @@ body{
 .txt-inf a:hover{
     color: rgb(255, 255, 255);
     background-color: #25d366;
+    box-shadow: 1px 1px 7px 2px #63f096;
     transition: .2s;
 }
 .top-main{
@@ -95,6 +96,27 @@ body{
 .cab-main{
     font-size: 2.6em;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.432);
+}
+ ul li{
+    list-style: none;
+}
+ details ul li{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.rodpe_card{
+    color: rgba(236, 26, 26, 0.185);
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 4em;
+}
+.rodpe_card:hover{
+    transition: 1s;
+    color: var(--ternary-color);
 }
 .test-main{
     font-size: 2em;
@@ -142,11 +164,12 @@ body{
     margin-bottom: .6em;
     border-radius: 6px;
     background-color: white;
-    box-shadow: 2px 2px 6px 5px rgba(0, 0, 0, 0.123);
+    box-shadow: 2px 2px 6px 5px var(--primary-color);
 }
 .inst:hover{
     transition: .5s;
-    box-shadow: 2px 2px 6px 9px rgba(0, 0, 0, 0.349);
+    box-shadow: 2px 2px 6px 9px var(--second-color);
+    cursor: pointer;
 
 }
 .inst img{
@@ -154,7 +177,9 @@ body{
 }
 .carta .banner-header{
     text-align: center;
-    font-size: 2em;
+    font-size: 2.6em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.32);
+    margin-bottom: 1em;
 }
 .banner-body{
     width: 100%;
@@ -184,6 +209,7 @@ body{
     margin: 12px 0;
     font-size: 2.6em;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.432);
+    margin-bottom: 1em;
 }
 summary::-webkit-details-marker {
     display: none;
@@ -204,6 +230,7 @@ summary:after {
   }
 details[open] summary:after {
     content: "-"; 
+    
   }
 summary{
     list-style-type: none;
@@ -217,7 +244,7 @@ summary{
   }
   summary:hover{
     transition: .5s;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid var(--ternary-color);
   }
   details{
     margin-bottom: .3em;
@@ -225,6 +252,16 @@ summary{
   summary ul li{
     font-size: 25pt;
   }
+  .tipoServiço li:nth-of-type(1){
+    border-bottom: 2px solid var(--second-color);
+    border-radius: 10px;
+    padding: .5em;
+ }
+ .tipoServiço li:nth-of-type(2){
+    border-bottom: 2px solid var(--second-color);
+    border-radius: 10px;
+    padding: .5em;
+ }
 .contato{ 
    width: 100%;
    min-height: 50vh;
@@ -278,12 +315,25 @@ summary{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    gap: .2em;
 
 }
-.empresas-parceiras iframe{    
+.empresas-parceiras> h3{
+    text-shadow: 2px 2px 4px #00aeff;
+    /* color: white; */
+    font-family: "Radio Canada Big", sans-serif;
+}
+.empresas-parceiras .emPa{    
     flex-wrap: wrap;
-    padding: .5em;
+    outline: 5px;
     box-sizing: border-box;
+    width: 70vh;
+    height: 40vh;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 6px 6px var(--second-color);
 }
 .footer{
 
@@ -301,6 +351,9 @@ summary{
  h6{
     margin-top: 35px;
  }
+.tel{
+    display: none;
+ }
 .modal-body{
     display:flex;
     align-items: center;
@@ -316,7 +369,7 @@ summary{
     min-width: 60vh;
     height: 50%;
 }
-iframe{
+.crrs{
     border-radius: 15px;
     width: 60vh;
     min-height: 60vh;

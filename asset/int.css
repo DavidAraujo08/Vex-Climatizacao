@@ -1,6 +1,6 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+   background-color: rgb(253, 0, 0);
 }
 .carousel-inne{
     display: flex;

@@ -1,5 +1,7 @@
 :root{
     --primary-color:rgba(0, 0, 0, 0.055);
+    --second-color:rgba(0, 0, 0, 0.350);
+    --ternary-color:rgba(255, 0, 0, 0.979);
 }
 .d-block{
     width: 25vh;
