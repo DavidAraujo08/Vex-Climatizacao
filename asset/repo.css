@@ -4,6 +4,7 @@
         font-size: 3em;
     }
     .header{
+        min-width: 324px;
         background-size: 60em;
        }
         .reference p{
@@ -19,9 +20,9 @@
         .banner-body img{
            width: 10em;
            padding: 10px;
-        }
+        }        
          iframe{
-             border-radius: 15px;
+             /* border-radius: 15px; */
              width: 50vh;
              min-height: 60vh;
          }
@@ -52,4 +53,11 @@
          i{
             color:white;
          }
+    }
+    @media (max-width:400px){
+      .crrs{ 
+         width: 50vh;
+         min-height: 60vh;
+         margin-right: 1.25em;
+        }
     }

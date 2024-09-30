@@ -370,7 +370,7 @@ summary{
     height: 50%;
 }
 .crrs{
-    border-radius: 15px;
+    /* border-radius: 15px; */
     width: 60vh;
     min-height: 60vh;
    
