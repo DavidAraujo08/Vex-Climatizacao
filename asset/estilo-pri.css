@@ -365,13 +365,10 @@ summary{
 .h2{
     align-items: center;
 }
-.modal-body {
-    min-width: 60vh;
-    height: 50%;
-}
 .crrs{
     /* border-radius: 15px; */
     width: 60vh;
-    min-height: 60vh;
+    height: 60vh;
+    margin: auto;
    
 }
