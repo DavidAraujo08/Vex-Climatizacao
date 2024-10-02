@@ -1,4 +1,4 @@
-@media  (max-width: 1024px){
+@media  (max-width: 900px){
 
     .header ifran{
         font-size: 3em;
@@ -61,27 +61,27 @@
             margin: auto;
 
            }
-    
 
    }
-    @media (max-width: 500px){
-      .crrs{ 
-         width: 40vh;
-         min-height: 60vh;
-         margin: auto;
-        }
-    }
-    @media (max-width: 370px){
-      .crrs{ 
-         width: 40vh;
-         min-height: 60vh;
-         margin: auto;
-        }
-    }
-    @media (max-width: 350px){
-      .crrs{ 
-         width: 30vh;
-         min-height: 50vh;
-         margin-right: 2em;
-        }
-    } 
+
+           @media (max-width: 500px){
+            .crrs{ 
+               width: 40vh;
+               min-height: 60vh;
+               margin: auto;
+              }
+          }
+          @media (max-width: 370px){
+            .crrs{ 
+               width: 40vh;
+               min-height: 60vh;
+               margin: auto;
+              }
+          }
+          @media (max-width: 350px){
+            .crrs{ 
+               width: 30vh;
+               min-height: 50vh;
+               margin-right: 2em;
+              }
+          } 
