@@ -1,4 +1,4 @@
-@media  (max-width: 900px){
+@media  (max-width: 1024px){
 
     .header ifran{
         font-size: 3em;
@@ -56,14 +56,20 @@
             width: auto;
          }
          .crrs{ 
-            width: 30vh;
+            width: 50vh;
             height: 60vh;
             margin: auto;
 
            }
 
    }
-
+         @media (max-width: 550px){
+            .crrs{ 
+               width: 50vh;
+               min-height: 60vh;
+               margin: auto;
+            }
+         }
            @media (max-width: 500px){
             .crrs{ 
                width: 40vh;
